@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class NumberTest
+{
+	public static void main(String args[]);
+	{
+	System.out.println("Enter the Number t check if it's EVEN or ODD");
+	Scanner sc = new Scanner();
+	
+	String num = sc.next();
+	String res = (num%2==0)?"even":"odd";
+	
+	System.out.println(res);	
+	
+}		
+}
